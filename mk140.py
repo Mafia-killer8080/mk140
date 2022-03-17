@@ -7,7 +7,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from mk130 import teaching
+    from mk140 import teaching
     xsxsxlll()
 elif bit == '32bit':
     from mk140 import teaching
